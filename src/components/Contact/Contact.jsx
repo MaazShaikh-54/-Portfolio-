@@ -44,7 +44,7 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact' className='my-18 relative'>
+        <div id='contact' className='my-18 relative mx-auto md:w-[70%]'>
             <h3 className='font-semibold mb-6 md:text-xl lg:text-center'>
                 <span className='text-[#78b86a] font-light font-[caveat]'>&lt;form&gt;</span> Contact Me <span className='text-[#78b86a] font-light font-[caveat]'>&lt;/form&gt;</span>
             </h3>
