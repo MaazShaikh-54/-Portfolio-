@@ -1,5 +1,6 @@
 import React from 'react'
 import hero from '/hero-image.png';
+import Resume from '/resume/Mohammad_Maaz_A_Shaikh.pdf';
 import { Button } from "@/components/ui/button";
 import { GitHubLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
 
@@ -26,7 +27,7 @@ const Hero = () => {
                                 lg:h-9' /></a>
                                 <a href="https://github.com/MaazShaikh-54" target='_blank'><GitHubLogoIcon color='white' className='w-6 h-6 lg:w-9 lg:h-9' /></a>
                             </div>
-                            <a href="../../../public/resume/Mohammad_Maaz_A_Shaikh.pdf" download>
+                            <a href={Resume} download>
                                 <Button variant="outline" className="border-[1.4px] py-0.5 px-[8px] text-[12px]lg:py-2.25 lg:px-[14px] lg:text-[16.5px]" >Resume</Button>
                             </a>
                         </div>
