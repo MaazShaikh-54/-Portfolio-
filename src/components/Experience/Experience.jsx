@@ -9,7 +9,7 @@ export default function Experience() {
                     <h4 className="relative inline-block before:content-['.'] before:text-9xl">
                         Web Developer Intern
                     </h4>
-                    <p className='text-gray-300 font-thin text-sm mt-[93px]'>Apr, '25 [4 mo.s Present]</p>
+                    <p className='text-gray-300 font-thin text-sm mt-[93px] tracking-tighter'>Apr, '25 [4 mo.s Present]</p>
                 </div>
                 {/* <div class="p-8 relative before:absolute before:inset-0 before:bg-[repeating-linear-gradient(45deg,_rgba(34,197,94,0.2)_0px,_rgba(34,197,94,0.2)_2px,_transparent_2px,_transparent_4px)] before:content-[''] pointer-events-none">
                     <p class="relative z-10">This is your content</p>
