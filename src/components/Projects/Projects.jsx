@@ -15,11 +15,11 @@ const Projects = () => {
                 <div className='relative max-w-md mx-auto bg-[#171717] p-6 rounded-lg overflow-hidden before:content-[""] before:absolute before:w-40 before:h-40 before:bg-[radial-gradient(#ffffff33_1px,_transparent_1px)] before:bg-[length:6px_6px] before:rounded-full before:-bottom-20 before:-left-20 after:content-[""] after:absolute after:w-16 after:h-16 after:bg-[radial-gradient(#78b86a66_1px,_transparent_1px)] after:bg-[length:5px_5px] after:rounded-full after:-top-6 after:right-4 before:shadow-lg before:shadow-white/30'>
 
                     <div className='flex flex-col p-4 bg-gray-100 border-1 md:h-auto md:w-auto' style={{ backgroundImage: `url(${ProjectBG})`, backgroundSize: 'cover', backgroundPosition: 'center', opacity: 0.85, borderRadius: '10px', }}>
-                        <img src={ProjectLogo} alt="project-logo" className='h-16 w-16 ml-5 md:h-22 md:w-22 ' />
+                        <img src={ProjectLogo} alt="project-logo" className='h-16 w-16 md:ml-5 md:h-22 md:w-22 ' />
                         <div>
                             <div className='flex gap-2 justify-between mb-2 md:px-3'>
-                                <h4 className='text-2xl font-semibold mt-2'>Camporia</h4>
-                                <div className='flex items-center gap-2 mt-2 hover:scale-103 transition-transform duration-500 hover:bg-white/15 px-2 rounded border-1'>
+                                <h4 className='md:text-2xl text-lg font-semibold mt-2'>Camporia</h4>
+                                <div className='flex items-center gap-2 mt-2 hover:scale-103 transition-transform duration-500 hover:bg-white/15 px-1 rounded border-1'>
                                     <a href="https://camporia.netlify.app/" target="_blank" rel="noopener noreferrer" className='text-white font-normal'>View Project</a><Send color='white' size={18} className=' ' />
                                 </div>
                             </div>
