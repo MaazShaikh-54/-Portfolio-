@@ -54,7 +54,7 @@ const Skills = () => {
 
                     {skills.map((item, index) => (
                         <p key={index} className='ml-4 leading-6 md:leading-8'>
-                            <span className='text-[#78b86a]'>`"${item.key}"`</span>
+                            <span className='text-[#78b86a]'>"{item.key}"</span>
                             <span className='text-white font-semibold'>:</span>
                             <span className='font-mono'> "{item.value}"</span>
                         </p>
